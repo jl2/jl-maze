@@ -1,0 +1,16 @@
+
+* jl-maze
+** About
+Package for generating, solving, and visualizing mazes.
+
+** License
+ISC
+
+Copyright (c) 2022 Jeremiah LaRocco <jeremiah_larocco@fastmail.com>
+
+
+* Plan
+** TODO Implement simple grid-maze utilities (serialize to textand svg, grid manipulation, etc.) 
+** TODO Generate grid-mazes using different algorithms
+** TODO Create circular-maze class utilities
+** TODO Generate circular-mazes using different algorithms
