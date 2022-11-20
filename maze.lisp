@@ -28,6 +28,17 @@
     (declare (ignorable maze position))
     nil))
 
+(defgeneric adjacent-p (maze position-1 position-2)
+  (:documentation "Returns t if position-1 and position-2 share a boundary, nil otherwise.")
+  (:method ((maze t) (position-1 t) (position-2 t))
+    (declare (ignorable maze position-1 position-2))
+    nil))
+
+(defgeneric connected-p (maze position-1 position-2)
+  (:documentation "Returns t position-1 can move to position-2, nil otherwise.")
+  (:method ((maze t) (position-1 t) (position-2 t))
+    (declare (ignorable maze position-1 position-2))
+    nil))
 
 (defgeneric to-text (stream maze)
   (:documentation "Writes a text representation of the maze to stream, if possible.")

@@ -23,5 +23,5 @@
   :depends-on (#:alexandria)
   :components ((:file "package")
                (:file "maze")
-               (:file "grid-maze"))
+               (:file "2d-grid-maze"))
   :in-order-to ((test-op (test-op jl-maze.test))))

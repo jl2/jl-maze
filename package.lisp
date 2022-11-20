@@ -20,8 +20,16 @@
   (:use #:cl #:alexandria)
   (:export #:maze
            #:maze-position
-           #:neighbors
-           #:grid-maze
            #:to-text
            #:to-svg
+           #:neighbors
+
+           #:2d-grid-maze
+           #:2d-grid-position
+
+           #:left
+           #:right
+           #:above
+           #:below
+
            ))
